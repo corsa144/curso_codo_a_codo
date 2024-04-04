@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Logo de la empresa 👌</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="https://mail.google.com/">quienes </a>
+        <a href="galeria.html">Galeria</a>
+        <a href="">contacto</a>
+        <!--Lista desordenada-->
+        <ul>
+            <li>inicio</li>
+            <li>quienes somos?</li>
+            <li>galeria</li>
+            <li>contacto</li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Formulario</h2>
+
+        <form action="base_datos.html" method="post">
+
+            <label for="institucion">Intitucion:</label>
+            <input type="text" id="institucion" value="UTN" disabled>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escriba su nombre">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Escriba su apellido">
+
+            <label for="fech">Fecha:</label>
+            <input type="date" id="fech">
+
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" placeholder="Escriba su correo">
+
+            <label for="pais">Pais:</label>
+            <input type="text"  minlength="2" maxlength="10" id="pais">
+
+            <label for="edad">Edad:</label>
+            <input type="number" min="0" max="120" id="edad">
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password">
+
+            <br>
+
+            <select name="" id="paises">
+                <option value="">--seleccionar--</option>
+                <option value="">Argentina</option>
+                <option value="">Brasil</option>
+                <option value="">Uruguay</option>
+            </select>
+
+            <input type="submit" value="Enviar S">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Empresa x tel: 0-800-555-2345</p>
+    </footer>
+</body>
+</html>
