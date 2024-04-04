@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+}
+
+h3{
+    color: aquamarine;
+    text-align: center;
+}
+
+p{
+    color: azure;
+}
+
+.liAmarilla{
+    color: blueviolet;
+}
+
+header{
+    margin: 30px;
+    height: 500px;
+    width: 100%;
+    background-image: url("RPP14-12.jpg");
+    background-size: cover;
+}
+
+main{
+    background-color: blue;
+    margin-top: 20px;
+    width: 100%;
+
+}
