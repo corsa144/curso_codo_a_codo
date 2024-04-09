@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+}
+
 nav{
     background-color: crimson;
 }
@@ -16,6 +20,10 @@ nav{
 
 #seccionCuatro{
     background-color: black;
+}
+
+#tendenciasContainer{
+    align-self: auto;
 }
 
 h1{
